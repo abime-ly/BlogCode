@@ -62,9 +62,9 @@ ___ ____
 
 
 ### 图片（**也有参数式和行内式，用法与链接一致，只是方括号[]前要加感叹号！**）
-![我是图片](https://www.cnblogs.com/images/logosmall.gif)
+![我是图片](/img/me.jpg)
 
-[图片]: https://www.cnblogs.com/images/logosmall.gif
+[图片]: /img/logo.png
 参数式图片，这里是![图片]
 
 ### 代码框

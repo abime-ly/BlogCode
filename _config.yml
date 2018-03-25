@@ -3,12 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: 博客 & 生活
+subtitle:  往优秀进发
+description: 记录学习技能和生活中遇到的问题
+author: Abime
+language: zh-Hans
+timezone: Asia/Shanghai
+
+# 侧边栏头像设置
+
+
+# Local Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -34,13 +44,13 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
